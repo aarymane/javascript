@@ -20,3 +20,17 @@ let aarya=69;
 let stringNumber = String(aarya)
 console.log(stringNumber)
 console.log(typeof stringNumber)
+
+
+let value =3;
+let negvalue =-value;
+console.log(negvalue)
+
+let string1 = "hello "
+let string2 = "aaryesh"
+let string3 = string1 + string2;
+console.log(string3)
+
+console.log("1"+2);
+console.log(1+"2");
+console.log("1"+2+2);
