@@ -52,4 +52,27 @@ console.log(typeof myFunction)
 
 
 //stack(primitive),heap(non-primitive)
+//stack-in this only copy of info is given
+let myyoutubename = "aaryeshmanedotcom"
+
+let anothername=myyoutubename
+anothername="chaipecharcha"
+
+console.log(myyoutubename)
+console.log(anothername)
+
+//heap
+let userone={
+    email:"aaryesh03454@gmail.com",
+    gpay:"986093456",
+
+}
+
+let usertwo= userone;
+
+usertwo.email="manas@gmail.com"
+console.log(usertwo.email)
+console.log(userone.email)
+
+
 
